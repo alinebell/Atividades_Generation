@@ -1,0 +1,36 @@
+programa
+{
+	
+//Entre com 3 notas de 4 alunes, calcule a média de cada alune e crie um 
+	//vetor de 4 posições para guardar cada média dos alunes. Na sequencia,
+	//calcule a média geral.
+	funcao inicio()
+	{
+		real media[4],n1,n2,n3,somaMedia=0.0,mediaGeral
+		inteiro x
+
+		para(x=0;x<4;x++)
+		{
+			escreva("\nEntre com a primeira nota:")
+programa
+{
+//Elabora um sistema que entre com 6 números e calcule a média desses numeros.	
+	funcao inicio()
+	{
+		
+real numeros[2][3],somaNumeros=0.0,mediaNumeros
+		inteiro linha,coluna
+
+		para(linha=0;linha<2;linha++)
+		{
+			para(coluna=0;coluna<3;coluna++)
+			{
+				escreva("\nEntre com um número qualquer: ")
+				leia(numeros[linha][coluna])
+				somaNumeros = somaNumeros + numeros[linha][coluna]
+			}
+		}
+		mediaNumeros = somaNumeros / 6
+		escreva("\nMédia dos números lidos foi de: ",mediaNumeros)
+	}
+}
